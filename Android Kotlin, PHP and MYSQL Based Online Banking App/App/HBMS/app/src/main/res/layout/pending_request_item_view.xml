@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="2dp"
+    android:layout_marginVertical="10dp"
+    android:background="#19005EFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/P_Requester_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Requester Email: 2540">
+            </TextView>
+            <TextView
+                android:id="@+id/P_Request_Amount"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Request Amount: 50000">
+            </TextView>
+            <TextView
+                android:id="@+id/P_Request_Message"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Request Message: ">
+            </TextView>
+            <TextView
+                android:id="@+id/P_Request_Date"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Date: 25-56-554-">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/P_Accept"
+                android:layout_height="wrap_content"
+                android:text="Respond">
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

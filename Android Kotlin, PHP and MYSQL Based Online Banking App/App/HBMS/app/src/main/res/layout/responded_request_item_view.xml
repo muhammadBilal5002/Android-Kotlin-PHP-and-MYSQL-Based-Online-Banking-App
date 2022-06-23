@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="2dp"
+    android:layout_marginVertical="10dp"
+    android:background="#19005EFF"
+    >
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Requester_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Requester Email: 2540"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/Request_Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Request Amount: 50000"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/Request_Message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Request Message: "
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/Request_Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Request Date: 25-56-554-"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/Responded_Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Responded Amount: 50000"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/Responder_Message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Request Message: "
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/Responded_Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Responded Date: 25-56-554-"
+            android:textColor="@color/black"></TextView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
